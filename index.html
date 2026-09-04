@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Francois Creative Designs developer hub and Bridge Ecosystem overview.">
+  <meta name="theme-color" content="#120d18">
+  <title>FCD Developer Hub | Bridge Ecosystem</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="stars" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Francois Creative Designs home">
+        <span class="brand-mark" aria-hidden="true">F</span>
+        <span><strong>FRANCOIS_</strong><small>CREATIVE DESIGNS</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#ecosystem">Ecosystem</a>
+        <a href="#projects">Projects</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#status">Status</a>
+        <a class="nav-cta" href="https://github.com/fvent01">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> FCD DEVELOPMENT NETWORK</div>
+        <h1>Building practical software.<br><em>Connecting it with Bridge.</em></h1>
+        <p>Francois Creative Designs creates approachable software, websites and business tools for real-world workflows. Bridge is the shared ecosystem connecting identity, content, billing and application infrastructure.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#ecosystem">Explore Bridge</a>
+          <a class="button secondary" href="https://github.com/fvent01">View GitHub</a>
+        </div>
+        <div class="hero-meta" aria-label="Technology summary">
+          <span>PHP</span><span>Go</span><span>MySQL</span><span>Vanilla JS</span><span>REST</span><span>OAuth</span>
+        </div>
+      </div>
+
+      <div class="system-card" aria-label="Bridge ecosystem system diagram">
+        <div class="system-topline"><span class="pulse"></span> BRIDGE NETWORK <b>ONLINE</b></div>
+        <div class="orbit">
+          <div class="orbit-ring ring-one"></div>
+          <div class="orbit-ring ring-two"></div>
+          <div class="core-node"><strong>BRIDGE</strong><small>CORE</small></div>
+          <div class="satellite s1"><b>ID</b><span>Identity</span></div>
+          <div class="satellite s2"><b>CMS</b><span>Content</span></div>
+          <div class="satellite s3"><b>INV</b><span>Invoice</span></div>
+          <div class="satellite s4"><b>AN</b><span>Analytics</span></div>
+        </div>
+        <div class="system-footer"><span>Shared contracts</span><span>Secure authorization</span><span>Modular services</span></div>
+      </div>
+    </section>
+
+    <section id="ecosystem" class="section shell">
+      <div class="section-heading">
+        <div><span class="kicker">01 / ECOSYSTEM</span><h2>One platform. Specialized systems.</h2></div>
+        <p>Each Bridge product owns a focused responsibility while sharing common contracts, identity and engineering standards.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card featured">
+          <div class="card-icon">ID</div><div class="card-status"><i></i> ACTIVE DEVELOPMENT</div>
+          <h3>Bridge Identity</h3><p>Authentication, authorization, OAuth, passkeys, MFA and tenant-aware security for the ecosystem.</p>
+          <div class="tags"><span>OAuth 2.0</span><span>PKCE</span><span>MFA</span></div>
+          <a href="#architecture">System role <span>→</span></a>
+        </article>
+        <article class="product-card">
+          <div class="card-icon">CMS</div><div class="card-status"><i></i> RUNNING</div>
+          <h3>Bridge CMS</h3><p>Modular publishing and content management with themes, plugins, Markdown and operational tooling.</p>
+          <div class="tags"><span>PHP</span><span>Plugins</span><span>Markdown</span></div>
+          <a href="#architecture">System role <span>→</span></a>
+        </article>
+        <article class="product-card">
+          <div class="card-icon">CORE</div><div class="card-status"><i></i> FOUNDATION</div>
+          <h3>Bridge Core</h3><p>Shared contracts, licensing foundations, compatibility layers and reusable infrastructure.</p>
+          <div class="tags"><span>Contracts</span><span>Licensing</span><span>Shared APIs</span></div>
+          <a href="#architecture">System role <span>→</span></a>
+        </article>
+        <article class="product-card">
+          <div class="card-icon">INV</div><div class="card-status"><i></i> ACTIVE DEVELOPMENT</div>
+          <h3>Bridge Invoice</h3><p>Invoices, estimates, customer records, settlement workflows, corrections and auditable financial operations.</p>
+          <div class="tags"><span>Billing</span><span>Ledger</span><span>Audit</span></div>
+          <a href="#architecture">System role <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section shell split-section">
+      <div>
+        <span class="kicker">02 / FCD LAB</span>
+        <h2>Software shaped around actual work.</h2>
+        <p class="lead">The FCD lab is where experiments become practical tools - dashboards, portals, workflow automation, integrations and purpose-built applications.</p>
+      </div>
+      <div class="lab-list">
+        <div><span>01</span><strong>Bridge Analytics</strong><small>Independent telemetry and reporting service</small></div>
+        <div><span>02</span><strong>Bridge Commerce</strong><small>Products, orders and customer workflows</small></div>
+        <div><span>03</span><strong>Bridge CRM</strong><small>Customer relationships and operational follow-up</small></div>
+        <div><span>04</span><strong>Bridge Forms</strong><small>Structured intake and workflow automation</small></div>
+      </div>
+    </section>
+
+    <section id="architecture" class="section shell architecture">
+      <div class="section-heading">
+        <div><span class="kicker">03 / ARCHITECTURE</span><h2>The Bridge connection model.</h2></div>
+        <p>Products stay independently deployable while relying on shared identity, contracts and disciplined service boundaries.</p>
+      </div>
+      <div class="architecture-board">
+        <div class="arch-row products-row"><span>CMS</span><span>INVOICE</span><span>ANALYTICS</span><span>COMMERCE</span></div>
+        <div class="connector-label">SECURE PRODUCT BOUNDARY · AUTHORIZED API CONTRACTS</div>
+        <div class="arch-row platform-row"><span>BRIDGE IDENTITY</span><span>BRIDGE CORE</span></div>
+        <div class="foundation"><span>PHP / GO SERVICES</span><span>MYSQL / MARIADB</span><span>REST + EVENTS</span><span>LINUX INFRASTRUCTURE</span></div>
+      </div>
+    </section>
+
+    <section id="status" class="section shell status-section">
+      <div class="status-copy"><span class="kicker">04 / SYSTEM STATUS</span><h2>Built in public view, shipped with discipline.</h2><p>This developer hub is the public map. Production applications, credentials, private roadmaps and proprietary business material remain separated from the public site.</p></div>
+      <div class="status-panel">
+        <div><span><i></i> Bridge CMS</span><b>Operational</b></div>
+        <div><span><i></i> Bridge Identity</span><b>In development</b></div>
+        <div><span><i></i> Bridge Invoice</span><b>In development</b></div>
+        <div><span><i></i> Bridge Core</span><b>Foundation</b></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid"><div><strong>FRANCOIS_</strong><p>Creative design. Practical software.</p></div><div><span>Francois Creative Designs</span><span>Glasgow, Kentucky</span><span>© 2026 FCD</span></div></div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
